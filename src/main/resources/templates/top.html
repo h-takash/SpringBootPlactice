@@ -1,0 +1,14 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Top</title>
+</head>
+<body>
+<h1 th:text="トップ画面"></h1>
+<form th:action="@{/top/submit}" method="post" th:object="${topForm}">
+    <input type="text" th:field="*{name}"/>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+</html>

@@ -1,2 +1,4 @@
-# SpringBootPlactice
-SpringBootPlactice
+# SpringBootPractice
+
+SpringBootPractice
+
